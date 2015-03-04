@@ -116,7 +116,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<httparty>, [">= 0"])
-      s.add_runtime_dependency(%q<hashie>, ["~> 1"])
+      s.add_runtime_dependency(%q<hashie>, [">= 0"])
       s.add_runtime_dependency(%q<json>, [">= 0"])
       s.add_development_dependency(%q<rspec>, ["~> 2"])
       s.add_development_dependency(%q<jruby-openssl>, [">= 0"])
@@ -129,7 +129,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<redcarpet>, [">= 0"])
     else
       s.add_dependency(%q<httparty>, [">= 0"])
-      s.add_dependency(%q<hashie>, ["~> 1"])
+      s.add_dependency(%q<hashie>, [">= 0"])
       s.add_dependency(%q<json>, [">= 0"])
       s.add_dependency(%q<rspec>, ["~> 2"])
       s.add_dependency(%q<jruby-openssl>, [">= 0"])
